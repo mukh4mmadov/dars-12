@@ -195,3 +195,35 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.button7 {
+  background-color: #1f3e97;
+  width: 211px;
+  height: 56px;
+  color: #ffffff;
+  top: 648px;
+  left: 957px;
+  border-radius: 32px;
+  padding: 16px 64px;
+  gap: 8px;
+
+  &:hover {
+    background-color: rgb(124, 118, 185);
+  }
+}
+
+.button8 {
+  width: 211px;
+  height: 56px;
+  color: #1f3e97;
+  top: 648px;
+  left: 957px;
+  border-radius: 32px;
+  padding: 16px 64px;
+  gap: 8px;
+
+  &:hover {
+    background-color: #1f3e97;
+    color: #ffffff;
+  }
+}
