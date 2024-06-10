@@ -166,11 +166,18 @@ nav a {
   background-color: #f9f9f9;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    background-color: rgb(124, 118, 185);s;
+  }
 }
 
 .tab.active {
-  background-color: #000;
+  background-color: #1f3e97;
   color: #fff;
+  &:hover {
+    background-color: rgb(124, 118, 185);
+  }
 }
 
 .tab-content {
