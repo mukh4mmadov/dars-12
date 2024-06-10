@@ -245,12 +245,18 @@ footer {
 .button {
   background-color: #1f3e97;
   color: #fff;
+  &:hover {
+    background-color: rgb(124, 118, 185);
+  }
 }
 
-.item1:hover {
-  color: #1f3e97;
-}
-
-.item1:active {
-  color: #1f3e97;
+.item1 {
+  color: #000;
+  border: #000;
+  &:hover {
+    color: #002366;
+  }
+  &:active {
+    color: blue;
+  }
 }
