@@ -130,7 +130,7 @@ h2 {
   background-color: #1f3e97;
   color: #fff;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .carousel-button {
@@ -240,4 +240,12 @@ footer {
   margin-left: 145px;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.button {
+  background-color: #1f3e97;
+}
+
+.item1:hover {
+  color: #1f3e97;
 }
